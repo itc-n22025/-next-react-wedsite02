@@ -35,7 +35,7 @@ export default function Meta ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH
       <meta property='og:url' content={url} />
 
       <meta property='og:site_name' content={siteTitle} />
-      <meta property='og:type' contents={siteLocale} />
+      <meta property='og:type' content={siteLocale} />
       <meta property='og:local' content={siteLocale} />
 
       <link rel='icon' href={siteIcon} />
@@ -43,7 +43,7 @@ export default function Meta ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH
 
       <meta property='og:image' content={imgUrl} />
       <meta property='og:image:width' content={imgW} />
-      <meta poperty='og:image:height' content={imgH} />
+      <meta property='og:image:height' content={imgH} />
       <meta name='twitter:card' content='summary_large_image' />
     </Head>
   )
