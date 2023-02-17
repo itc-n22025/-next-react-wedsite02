@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import styles from 'styles/nav.module.css'
 
-export default function nav () {
+export default function Nav () {
   const [navIsOpen, setNavIsOpen] = useState(false)
 
   const toggleNav = () => {
